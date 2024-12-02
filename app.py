@@ -9,7 +9,7 @@ import os
 app = FastAPI(title="Comment Sentiment Analysis")
 
 # Configuration
-FEDDIT_API_URL = "http://:8080/api/v1"
+FEDDIT_API_URL = "http://localhost:8080/api/v1"
 
 # Define response model for comments
 class CommentResponse(BaseModel):
